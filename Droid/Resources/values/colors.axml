@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="borderColor">#000000</color>
+	<color name="grayish">#E6E6E6</color>
+	<color name="screen_color">#FFFFFF </color>
+</resources>
