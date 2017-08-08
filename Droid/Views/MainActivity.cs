@@ -2,7 +2,7 @@
 using Android.OS;
 using MvvmCross.Droid.Views;
 
-namespace WeatherMeUp.Droid
+namespace WeatherApp_v2.Droid
 {
 	[Activity]
 	public class MainActivity : MvxActivity
@@ -10,7 +10,7 @@ namespace WeatherMeUp.Droid
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
-			SetContentView(Resource.Layout.main);
+            SetContentView(Resource.Layout.main_layout);
 			Title = "Weather Me Now";
 		}
 	}

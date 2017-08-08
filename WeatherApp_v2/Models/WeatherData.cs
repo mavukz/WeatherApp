@@ -1,5 +1,5 @@
 ﻿using System;
-namespace WeatherMeUp
+namespace WeatherApp_v2
 {
 	public class WeatherData
 	{

@@ -1,7 +1,7 @@
 ﻿using MvvmCross.Core.ViewModels;
 using System.Windows.Input;
 
-namespace WeatherMeUp
+namespace WeatherApp_v2
 {
 	public class MainViewModel : MvxViewModel
 	{

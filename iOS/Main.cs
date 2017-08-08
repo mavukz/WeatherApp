@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace WeatherMeUp.iOS
+namespace WeatherApp_v2.iOS
 {
 	public class Application
 	{

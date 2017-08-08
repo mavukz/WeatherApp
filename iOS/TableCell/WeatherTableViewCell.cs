@@ -3,7 +3,7 @@
 using Foundation;
 using UIKit;
 
-namespace WeatherMeUp.iOS
+namespace WeatherApp_v2.iOS
 {
 	public partial class WeatherTableViewCell : UITableViewCell
 	{

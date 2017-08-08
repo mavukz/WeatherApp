@@ -3,7 +3,7 @@ using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
 using MvvmCross.iOS.Views.Presenters;
 using UIKit;
-namespace WeatherMeUp.iOS
+namespace WeatherApp_v2.iOS
 {
 	public class Setup : MvxIosSetup
 	{

@@ -1,7 +1,7 @@
 ﻿using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
 
-namespace WeatherMeUp
+namespace WeatherApp_v2
 {
 	public class App : MvxApplication
 	{

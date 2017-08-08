@@ -1,7 +1,7 @@
 ﻿using MvvmCross.iOS.Views;
 using MvvmCross.Binding.BindingContext;
 
-namespace WeatherMeUp.iOS
+namespace WeatherApp_v2.iOS
 {
 	public partial class MainViewController : MvxViewController<MainViewModel>
 	{

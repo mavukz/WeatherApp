@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace WeatherMeUp
+namespace WeatherApp_v2
 {
 	public class ApiRequest<T>
 	{

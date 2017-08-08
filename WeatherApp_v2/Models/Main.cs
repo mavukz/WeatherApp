@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WeatherMeUp
+namespace WeatherApp_v2
 {
 	public class Main : IWeatherModel
 	{

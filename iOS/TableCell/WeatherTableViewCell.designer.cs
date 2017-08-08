@@ -6,7 +6,7 @@
 //
 using Foundation;
 
-namespace WeatherMeUp.iOS
+namespace WeatherApp_v2.iOS
 {
 	[Register("WeatherTableViewCell")]
 	partial class WeatherTableViewCell

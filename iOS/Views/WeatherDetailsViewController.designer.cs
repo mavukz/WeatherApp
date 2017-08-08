@@ -7,7 +7,7 @@
 using Foundation;
 using System.CodeDom.Compiler;
 
-namespace WeatherMeUp.iOS
+namespace WeatherApp_v2.iOS
 {
 	[Register ("WeatherDetailsViewController")]
 	partial class WeatherDetailsViewController

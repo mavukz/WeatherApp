@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace WeatherMeUp
+namespace WeatherApp_v2
 {
 	public class SerializationService : ISerializationService
 	{

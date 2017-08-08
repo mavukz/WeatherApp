@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace WeatherMeUp
+namespace WeatherApp_v2
 {
 	public interface IWeatherApi
 	{

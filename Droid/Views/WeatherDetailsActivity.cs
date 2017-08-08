@@ -2,7 +2,7 @@
 using Android.OS;
 using MvvmCross.Droid.Views;
 
-namespace WeatherMeUp.Droid
+namespace WeatherApp_v2.Droid
 {
 	[Activity(Label = "WeatherDetailsActivity")]
 	public class WeatherDetailsActivity : MvxActivity

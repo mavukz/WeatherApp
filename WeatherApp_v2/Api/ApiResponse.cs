@@ -1,4 +1,4 @@
-﻿namespace WeatherMeUp
+﻿namespace WeatherApp_v2
 {
 	public class ApiResponse<T>
 	{

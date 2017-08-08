@@ -2,7 +2,7 @@
 using MvvmCross.Droid.Platform;
 using MvvmCross.Core.ViewModels;
 
-namespace WeatherMeUp.Droid
+namespace WeatherApp_v2.Droid
 {
 	public class Setup : MvxAndroidSetup
 	{

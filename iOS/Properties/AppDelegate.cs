@@ -5,7 +5,7 @@ using MvvmCross.iOS.Views.Presenters;
 using MvvmCross.Platform;
 using UIKit;
 
-namespace WeatherMeUp.iOS
+namespace WeatherApp_v2.iOS
 {
 	[Register("AppDelegate")]
 	public class AppDelegate : MvxApplicationDelegate

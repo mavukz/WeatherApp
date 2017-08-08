@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using MvvmCross.Core.ViewModels;
 
-namespace WeatherMeUp
+namespace WeatherApp_v2
 {
 	public class WeatherDetailsViewModel : MvxViewModel
 	{

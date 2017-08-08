@@ -2,7 +2,7 @@
 using Android.Content.PM;
 using MvvmCross.Droid.Views;
 
-namespace WeatherMeUp.Droid
+namespace WeatherApp_v2.Droid
 {
 	[Activity(Label = "WeatherMeUp",
 	          MainLauncher= true,
