@@ -23,20 +23,21 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Tl-F8-awH">
-                    <rect key="frame" x="16" y="216" width="288" height="30"/>
+                    <rect key="frame" x="16" y="208" width="288" height="45"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="288" id="Agw-EW-IPa"/>
+                        <constraint firstAttribute="height" constant="45" id="Ode-Lf-2R2"/>
                     </constraints>
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXQ-Eg-tMr">
-                    <rect key="frame" x="15" y="269" width="289" height="47"/>
+                    <rect key="frame" x="15" y="276" width="289" height="50"/>
                     <color key="backgroundColor" red="1" green="0.63529411764705879" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="289" id="pi0-0g-kB2"/>
-                        <constraint firstAttribute="height" constant="47" id="wWA-yP-JSX"/>
+                        <constraint firstAttribute="height" constant="50" id="wWA-yP-JSX"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                     <state key="normal" title="GET WEATHER">
@@ -49,21 +50,20 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Uzm-fD-ruN">
-                    <rect key="frame" x="150" y="341" width="20" height="20"/>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Uzm-fD-ruN">
+                    <rect key="frame" x="150" y="351" width="20" height="20"/>
                 </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="bXQ-Eg-tMr" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="26R-wf-rgt"/>
                 <constraint firstItem="Uzm-fD-ruN" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="5ds-eG-ncX"/>
                 <constraint firstItem="Uzm-fD-ruN" firstAttribute="top" secondItem="bXQ-Eg-tMr" secondAttribute="bottom" constant="25" id="Zf2-zL-CF2"/>
-                <constraint firstItem="7Tl-F8-awH" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="16" id="bOZ-re-7Js"/>
                 <constraint firstItem="Bpl-24-tj0" firstAttribute="top" secondItem="2" secondAttribute="top" constant="167" id="egG-0j-B1L"/>
+                <constraint firstItem="7Tl-F8-awH" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="gNC-ub-kxZ"/>
                 <constraint firstItem="Bpl-24-tj0" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="hbJ-8J-Fjs"/>
-                <constraint firstItem="bXQ-Eg-tMr" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="15" id="nPb-1w-Mrf"/>
                 <constraint firstItem="bXQ-Eg-tMr" firstAttribute="top" secondItem="7Tl-F8-awH" secondAttribute="bottom" constant="23" id="sRG-Cv-iOI"/>
-                <constraint firstItem="Bpl-24-tj0" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="144" id="xU9-nM-bzf"/>
-                <constraint firstItem="7Tl-F8-awH" firstAttribute="top" secondItem="Bpl-24-tj0" secondAttribute="bottom" constant="28" id="yRz-MN-qQq"/>
+                <constraint firstItem="7Tl-F8-awH" firstAttribute="top" secondItem="Bpl-24-tj0" secondAttribute="bottom" constant="20" id="yRz-MN-qQq"/>
             </constraints>
         </view>
     </objects>
