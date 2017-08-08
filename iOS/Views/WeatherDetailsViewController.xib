@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -36,10 +36,10 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vDM-iC-eNn">
-                    <rect key="frame" x="48" y="70" width="20" height="20"/>
+                    <rect key="frame" x="16" y="53" width="56" height="48"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="20" id="kd1-eB-s2J"/>
-                        <constraint firstAttribute="width" constant="20" id="qQ6-Rd-SgO"/>
+                        <constraint firstAttribute="height" constant="48" id="kd1-eB-s2J"/>
+                        <constraint firstAttribute="width" constant="56" id="qQ6-Rd-SgO"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szQ-3V-bC6">
@@ -52,10 +52,6 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zXd-BX-XzL">
-                    <rect key="frame" x="16" y="175" width="288" height="323"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </tableView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="del-If-hm0">
                     <rect key="frame" x="16" y="114" width="204" height="21"/>
                     <constraints>
@@ -76,21 +72,25 @@
                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zXd-BX-XzL">
+                    <rect key="frame" x="16" y="175" width="288" height="323"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="zXd-BX-XzL" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="16" id="1qJ-90-dds"/>
                 <constraint firstItem="i35-wo-hpX" firstAttribute="top" secondItem="del-If-hm0" secondAttribute="bottom" constant="7" id="1rs-3x-U05"/>
-                <constraint firstItem="vDM-iC-eNn" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="48" id="4sD-vw-j8n"/>
+                <constraint firstItem="vDM-iC-eNn" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="16" id="4sD-vw-j8n"/>
                 <constraint firstAttribute="trailing" secondItem="zXd-BX-XzL" secondAttribute="trailing" constant="16" id="77s-Bf-cuM"/>
-                <constraint firstItem="vDM-iC-eNn" firstAttribute="top" secondItem="qbV-Hz-C2a" secondAttribute="bottom" constant="20" id="AFe-w0-jU3"/>
+                <constraint firstItem="vDM-iC-eNn" firstAttribute="top" secondItem="qbV-Hz-C2a" secondAttribute="bottom" constant="3" id="AFe-w0-jU3"/>
                 <constraint firstAttribute="bottom" secondItem="zXd-BX-XzL" secondAttribute="bottom" constant="70" id="NhN-Z3-9wB"/>
                 <constraint firstItem="del-If-hm0" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="16" id="No4-Ol-2jZ"/>
                 <constraint firstItem="del-If-hm0" firstAttribute="top" secondItem="szQ-3V-bC6" secondAttribute="bottom" constant="20.5" id="Rac-dc-bdl"/>
                 <constraint firstItem="qbV-Hz-C2a" firstAttribute="top" secondItem="2" secondAttribute="top" constant="20" id="bSO-3V-kuG"/>
                 <constraint firstItem="zXd-BX-XzL" firstAttribute="top" secondItem="i35-wo-hpX" secondAttribute="bottom" constant="12" id="iKx-PR-TG8"/>
                 <constraint firstItem="i35-wo-hpX" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="16" id="icR-VR-ZVF"/>
-                <constraint firstItem="szQ-3V-bC6" firstAttribute="leading" secondItem="vDM-iC-eNn" secondAttribute="trailing" constant="12" id="pgS-Zg-nqq"/>
+                <constraint firstItem="szQ-3V-bC6" firstAttribute="leading" secondItem="vDM-iC-eNn" secondAttribute="trailing" constant="8" id="pgS-Zg-nqq"/>
                 <constraint firstItem="szQ-3V-bC6" firstAttribute="top" secondItem="qbV-Hz-C2a" secondAttribute="bottom" constant="11" id="qnM-86-UO0"/>
                 <constraint firstItem="qbV-Hz-C2a" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="16" id="zOf-ke-OT1"/>
             </constraints>
