@@ -17,7 +17,7 @@ namespace WeatherApp_v2.iOS
 			var bindingSet = this.CreateBindingSet<WeatherDetailsViewController, WeatherDetailsViewModel>();
 			bindingSet.Bind(LocationLabel).To(ViewModel => ViewModel.Location);
 			bindingSet.Bind(TemperatureLabel).To(ViewModel => ViewModel.Temperature);
-            bindingSet.Bind(DescriptionLabel).To(ViewModel => ViewModel.Date);
+            bindingSet.Bind(DescriptionLabel).To(ViewModel => ViewModel.Description);
 			bindingSet.Bind(DateLabel).To(ViewModel => ViewModel.Date);
 			bindingSet.Apply();
 		}
